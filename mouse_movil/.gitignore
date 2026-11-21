@@ -1,0 +1,37 @@
+# ===== Android / Kotlin / Gradle =====
+
+# Gradle
+.gradle/
+build/
+**/build/
+.kotlin/
+
+# Configuración local (ruta del SDK, claves)
+local.properties
+*.keystore
+*.jks
+keystore.properties
+
+# Android Studio / IntelliJ
+.idea/
+*.iml
+*.ipr
+*.iws
+captures/
+.navigation/
+
+# Artefactos generados
+*.apk
+*.aab
+*.ap_
+*.dex
+*.class
+output-metadata.json
+
+# NDK / nativos
+.externalNativeBuild/
+.cxx/
+
+# Logs y temporales
+*.log
+*.hprof

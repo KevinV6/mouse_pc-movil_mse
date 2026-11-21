@@ -1,0 +1,10 @@
+# ===== Raíz del monorepo: archivos del sistema operativo / editores =====
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
+._*
+*.swp
+*~
+.vscode/
