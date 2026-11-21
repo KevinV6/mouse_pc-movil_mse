@@ -8,3 +8,8 @@ $RECYCLE.BIN/
 *.swp
 *~
 .vscode/
+
+# Documentos locales de planificación / notas internas (no subir a GitHub)
+ARQUITECTURA.md
+ROADMAP_PROYECTO.md
+
