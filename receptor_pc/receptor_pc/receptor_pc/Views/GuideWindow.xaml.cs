@@ -1,13 +1,15 @@
+using receptor_pc.ViewModels;
 using Wpf.Ui.Appearance;
 using Wpf.Ui.Controls;
 
 namespace receptor_pc.Views;
 
-public partial class ShellWindow : FluentWindow
+public partial class GuideWindow : FluentWindow
 {
-    public ShellWindow()
+    public GuideWindow(GuideViewModel viewModel)
     {
         InitializeComponent();
         SystemThemeWatcher.Watch(this);
+        DataContext = viewModel;
     }
 }
